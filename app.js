@@ -1,7 +1,5 @@
 const http = require('http');
 const url = require('url');
-const querystring = require('querystring');
-const dbConnection = require('./databases/db');
 const bookControler = require('./controler')
 
 const server = http.createServer((req, res) => {
